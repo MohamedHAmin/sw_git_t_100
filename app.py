@@ -31,6 +31,7 @@ def sign_up():
         return "<h2>This user already exists</h2>"
 
 #checks for the user name and email
+#not the same cpmment
 def user_exists(email, username, password):
     # TODO: check for user if exists, you can use an array as your records.
     for user in users:
